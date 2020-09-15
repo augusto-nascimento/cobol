@@ -15,9 +15,9 @@
       *
       *-----------------------------------------------------------------
        WORKING-STORAGE SECTION.
-       01 APELIDO     PIC X(12) VALUE "ANGELO".
+       01 APELIDO       PIC X(12) VALUE "ANGELO".
        01 NOME          PIC X(30) VALUE SPACES.
-       01 IDADE          PIC 9(03) VALUE ZEROS.
+       01 IDADE         PIC 9(03) VALUE ZEROS.
 
       *-----------------------------------------------------------------
        PROCEDURE DIVISION.
@@ -25,6 +25,6 @@
       *
            MOVE "ANGELO LOTIERZO FILHO" TO NOME
            DISPLAY APELIDO
-           DISPLAY "OLA MUNDO"   "-----    " NOME.
+           DISPLAY "OLA MUNDO"   "---------" NOME.
 
 .          STOP RUN.
