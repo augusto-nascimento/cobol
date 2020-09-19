@@ -1,3 +1,4 @@
 *.so
 *.DAT
 *.DAT.1
+.bashrc
